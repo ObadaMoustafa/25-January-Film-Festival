@@ -5,7 +5,7 @@ function Footer() {
   //write code here
 
   return (
-    <Box position="absolute" bottom={0} width="100%" bgcolor="first.main">
+    <Box width="100%" bgcolor="first.main" zIndex={2}>
       <h1> This is Footer Component </h1>
     </Box>
   );

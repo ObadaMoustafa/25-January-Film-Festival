@@ -1,9 +1,16 @@
 import React from "react";
+import Header from "./components/Header";
 
 function Home() {
   //write code here
 
-  return <h1> This is Home Component </h1>;
+  //* header > slide
+  //* content
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default Home;
