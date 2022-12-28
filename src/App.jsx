@@ -7,7 +7,7 @@ import { darkTheme } from "./theme/theme";
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
-      <Box minHeight={"100vh"} bgcolor="second" position="relative">
+      <Box minHeight={"100vh"} bgcolor="first.light" position="relative">
         <Navbar />
         <Container>
           <Outlet />
