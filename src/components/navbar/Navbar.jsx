@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Box } from "@mui/material";
 import { NavLink } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
-import { AiOutlineClose } from "react-icons/ai";
+import MenuSharpIcon from "@mui/icons-material/MenuSharp";
+import CloseSharpIcon from "@mui/icons-material/CloseSharp";
 import "./navbar.css";
 import logo from "./logo.png";
 
@@ -59,9 +59,9 @@ function Navbar() {
           </div>
           <NavLink to="#" className="menu-bars">
             {!sidebar ? (
-              <FaBars className="hamburger" onClick={showSidebar} />
+              <MenuSharpIcon className="hamburger" onClick={showSidebar} />
             ) : (
-              <AiOutlineClose className="hamburger" onClick={showSidebar} />
+              <CloseSharpIcon className="hamburger" onClick={showSidebar} />
             )}
           </NavLink>
         </div>
