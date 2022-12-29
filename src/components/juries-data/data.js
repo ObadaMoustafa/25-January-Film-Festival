@@ -4,7 +4,7 @@ export const data = [
     name: 'Rena Netjes',
     profession: 'Journalist',
     description:
-      'Netjes has been active as a freelance writer and journalist since 2002. Media for which she writes or has written include de Volkskrant (in 2003), Elsevier (2005 - 2008), Knack (from 2007), Trouw (from 2010), NCRV (from 2011), Het Parool , BNR Nieuwsradio , NOS, The Correspondent , Zaman Today , Newsweek and The New York Times. In 2014, Netjes was charged in Egypt with aiding the Muslim Brotherhood , which has been identified as a terrorist organization, and spreading false information. Neat was accused of engaging in such practices on behalf of Al Jazeera, even though it was not her principal. She was able to leave the country before she could be arrested. On 23 June 2014, she was sentenced in absentia to ten years in prison.',
+      'Netjes has been active as a freelance writer and journalist since 2002. Media for which she writes or has written include de Volkskrant (in 2003), Elsevier (2005 - 2008), Knack (from 2007), Trouw (from 2010), NCRV (from 2011), Het Parool, BNR Nieuwsradio, NOS, The Correspondent, Zaman Today, Newsweek and The New York Times. In 2014, Netjes was charged in Egypt with aiding the Muslim Brotherhood, which has been identified as a terrorist organization, and spreading false information. Neat was accused of engaging in such practices on behalf of Al Jazeera, even though it was not her principal. She was able to leave the country before she could be arrested. On 23 June 2014, she was sentenced in absentia to ten years in prison.',
   },
   {
     id: '2',
