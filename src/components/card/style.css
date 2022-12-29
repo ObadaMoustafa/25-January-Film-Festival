@@ -1,0 +1,139 @@
+.card-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  border-radius: 25px;
+  background-color: white;
+  margin: 20px;
+}
+
+.image-container,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.card-content {
+  height: 350px;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary-color);
+  border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+  content: '';
+  right: 0;
+  bottom: -40px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: var(--primary-color);
+}
+
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: white;
+}
+
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 10px;
+}
+
+.profession {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  padding: 10px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #707070;
+  text-align: justify;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.awards {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  padding: 10px 0;
+  margin: auto;
+}
+
+li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #707070;
+  /* text-align: justify; */
+}
+
+.btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  border: none;
+  font-size: 14px;
+  color: white;
+  padding: 8px 16px;
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
