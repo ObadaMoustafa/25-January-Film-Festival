@@ -57,7 +57,7 @@ function Navbar() {
               </NavLink>
             ))}
           </div>
-          <NavLink to="#" className="menu-bars">
+          <NavLink to="#" className="menu-bars-close">
             {!sidebar ? (
               <MenuSharpIcon className="hamburger" onClick={showSidebar} />
             ) : (
