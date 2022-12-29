@@ -9,6 +9,7 @@ import './style.css';
 
 const Card = () => {
   const images = [image1, image2, image3, image4, image5];
+
   return (
     <div className="card-wrapper">
       {juries.map((jury, index) => {
@@ -36,7 +37,7 @@ const Card = () => {
                 )}
               </ul>
             </div>
-              <button className="btn">Show more</button>
+            {/* <button className={isActive ? "show" : "btn"}>Show more</button> */}
           </div>
         );
       })}
