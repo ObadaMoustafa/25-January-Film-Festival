@@ -26,18 +26,15 @@ const Card = () => {
               <h3 className="name">{name}</h3>
               <h3 className="profession">{profession}</h3>
               <p className="description">{description}</p>
-              <ul>
-                {awards && (
-                  <>
-                    <h3 className="awards">Awards</h3>
-                    {awards?.map((award, index) => (
-                      <li key={index}>{award}</li>
-                    ))}
-                  </>
-                )}
-              </ul>
+              {awards && (
+                <ul>
+                  <h3 className="awards">Awards</h3>
+                  {awards?.map((award, index) => (
+                    <li key={index}>{award}</li>
+                  ))}
+                </ul>
+              )}
             </div>
-            {/* <button className={isActive ? "show" : "btn"}>Show more</button> */}
           </div>
         );
       })}
