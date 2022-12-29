@@ -40,7 +40,7 @@
 
 .hamburger {
   color: var(--primary-color);
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .nav-menu {
@@ -95,6 +95,11 @@
   .hamburger {
     display: none;
   }
+
+  .menu-bars-close {
+    display: none;
+  }
+
   .links {
     display: flex;
   }
