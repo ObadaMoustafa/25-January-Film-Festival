@@ -1,0 +1,117 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.page-introduction {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 70px auto;
+}
+
+.page-introduction h2 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 5px;
+  line-height: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.conditions-container,
+.awards-container {
+  padding: 30px;
+}
+
+.conditions-container .title {
+  display: flex;
+  padding: 20px;
+}
+
+.double-overlay {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  margin-top: -8px;
+}
+
+.double-overlay .double-arrow-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: var(--primary-color);
+  font-size: 45px;
+}
+
+.double-overlay .double-arrow-2 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  fill: var(--primary-color) !important;
+  font-size: 45px;
+}
+
+.title h2 {
+  color: var(--primary-color);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+li {
+  display: flex;
+  margin: 10px 0 10px 55px;
+}
+
+.single-arrow {
+  margin: -3px 10px 0 0;
+  fill: var(--secondary-color) !important;
+  font-size: 35px;
+}
+
+.awards-container .title {
+  display: flex;
+  padding: 20px;
+}
+
+.awards-container h5 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: -5px;
+  color: var(--secondary-color);
+}
+
+.paragraph {
+  width: 50%;
+  margin: -5px 0 7px 100px;
+  list-style: circle;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.nominate-btn {
+  padding: 8px 16px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  margin: 70px auto;
+  cursor: pointer;
+}
+
+.nominate-btn:hover {
+  background-color: #9e0c22;
+}
