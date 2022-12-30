@@ -145,11 +145,72 @@ function AwardsAndConditions() {
             </p>
           </div>
         </ul>
-        <div className="btn-container">
-          <button className="nominate-btn">
-            <Link to={'/'}>Click here to nominate</Link>
-          </button>
+      </div>
+      <div className="submitting-container">
+        <div className="title">
+          <span className="double-overlay">
+            <ChevronRightIcon className="double-arrow-1" />
+            <ChevronRightIcon className="double-arrow-2" />
+          </span>
+          <h2>Submitting</h2>
         </div>
+        <p className="submitting-container-info">
+          The films will be viewed first by a preliminary committee, they will
+          check the main line of the festival if they are in the submitted
+          films, if the film doesn't match with the main guidelines of the
+          festival this preliminary committee will exclude the submitted film
+          from the festival.
+        </p>
+        <ul className="description">
+          <li>
+            <span className="single-overlay">
+              <ChevronRightIcon className="single-arrow" />
+            </span>
+            <h5>Second stage:</h5>
+          </li>
+          <div className="paragraph">
+            <p>
+              will be passing the submitted films to preliminary jury; they will
+              make the selections and choose three projects for each award.
+              These three projects will graduate to the final selection stage.
+            </p>
+          </div>
+          <li>
+            <span className="single-overlay">
+              <ChevronRightIcon className="single-arrow" />
+            </span>
+            <h5>The final stage:</h5>
+          </li>
+          <div className="paragraph">
+            <p>
+              our main jury will look at the submitted films and give decisions
+              who are the winners.
+              <p>
+                This main jury will be from big professional film makers and
+                documentary makers.
+              </p>
+            </p>
+          </div>
+          <div className="link-container">
+            <span className="double-overlay">
+              <ChevronRightIcon className="submitting-single-arrow-1" />
+              <ChevronRightIcon className="submitting-single-arrow-2" />
+            </span>
+            <h5>
+              <Link to={'/juries'} className="link-to-jury">
+                Click her to meet our jury.
+              </Link>
+            </h5>
+          </div>
+        </ul>
+      </div>
+      <div className="submitting-date">
+        <p>The submitting dates will be announced soon.</p>
+      </div>
+      <div className="btn-container">
+        <button className="nominate-btn">
+          <Link to={'/'}>Click here to nominate</Link>
+        </button>
       </div>
     </div>
   );
