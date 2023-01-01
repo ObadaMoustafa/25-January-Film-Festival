@@ -6,14 +6,11 @@
   margin: auto;
 }
 
-.page-introduction {
-  display: flex;
-  flex-direction: column;
-  width: 65%;
+.broadcast-introduction {
   margin: 70px auto;
 }
 
-.page-introduction h2 {
+.broadcast-introduction h2 {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -23,14 +20,10 @@
   color: white;
 }
 
-.broadcasting-conditions-container {
-  padding: 30px;
-}
-
 .broadcasting-conditions-container .title {
   position: relative;
   padding: 20px;
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
