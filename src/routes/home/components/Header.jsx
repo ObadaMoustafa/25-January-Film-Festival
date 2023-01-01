@@ -40,7 +40,7 @@ function Header() {
         component="div"
         sx={{
           position: "absolute",
-          width: { xs: "320px", md: 500 },
+          width: { xs: "auto", md: 500 },
           right: { xs: 20, md: 100 },
           top: { xs: "auto", md: "40%" },
           bottom: { xs: 10, md: "auto" },
