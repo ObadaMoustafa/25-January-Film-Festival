@@ -6,28 +6,21 @@
 }
 
 .page-introduction {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
   margin: 70px auto;
 }
 
 .page-introduction h2 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
   padding: 5px;
-  line-height: 18px;
+  line-height: 26px;
+  color: white;
 }
 
 p {
   font-size: 14px;
-}
-
-.conditions-container,
-.awards-container {
-  padding: 30px;
 }
 
 .conditions-container .title {
@@ -126,10 +119,6 @@ p {
 
 .nominate-btn:hover {
   background-color: #9e0c22;
-}
-
-.submitting-container {
-  padding: 30px;
 }
 
 .submitting-container .title {

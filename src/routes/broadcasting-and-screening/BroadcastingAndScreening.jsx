@@ -6,7 +6,7 @@ import { Container } from "@mui/material";
 function BroadcastingAndScreening() {
   return (
     <Container sx={{ flexGrow: 1 }}>
-      <div className="page-introduction">
+      <div className="broadcast-introduction">
         <h2>
           After you submit your films you can choose between just submitting to
           the festival or also give us the right to one or none or all the
