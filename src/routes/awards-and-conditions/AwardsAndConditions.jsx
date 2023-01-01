@@ -28,7 +28,7 @@ function AwardsAndConditions() {
           <h2>Conditions</h2>
         </div>
         <ul className="description">
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -38,13 +38,13 @@ function AwardsAndConditions() {
               revolutionary film is welcome to be a part of our festival.
             </p>
           </li>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
             <p>All submitted films must be made in the last 2 years max.</p>
           </li>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -63,7 +63,7 @@ function AwardsAndConditions() {
           <h2>Awards</h2>
         </div>
         <ul className="description">
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -73,7 +73,7 @@ function AwardsAndConditions() {
             <p>The documentary's duration must be longer than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -86,7 +86,7 @@ function AwardsAndConditions() {
             </p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -96,7 +96,7 @@ function AwardsAndConditions() {
             <p>The documentary's duration must be shorter than 20 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -106,7 +106,7 @@ function AwardsAndConditions() {
             <p>The film's duration must be longer than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -116,7 +116,7 @@ function AwardsAndConditions() {
             <p>The film's duration must be shorter than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -130,7 +130,7 @@ function AwardsAndConditions() {
             </p>
             <p>The resolution of the film must be at least 480q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -139,9 +139,12 @@ function AwardsAndConditions() {
           <div className="paragraph">
             <p>
               This honouring award is given to any activist / organization, who
-              contribute in a revolutionary idea or movement. This award goes to
-              any person: dead, alive or detained. You can nominate any person
-              or organization you believe they deserve the award.
+              contribute in a revolutionary idea or movement.
+              <p>
+                This award goes to any person: dead, alive or detained. You can
+                nominate any person or organization you believe they deserve the
+                award.
+              </p>
             </p>
           </div>
         </ul>
@@ -162,7 +165,7 @@ function AwardsAndConditions() {
           from the festival.
         </p>
         <ul className="description">
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -175,7 +178,7 @@ function AwardsAndConditions() {
               These three projects will graduate to the final selection stage.
             </p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>

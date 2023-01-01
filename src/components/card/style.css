@@ -26,19 +26,19 @@
 }
 
 .card-content::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   margin-block: 20px;
   border-radius: 10px;
 }
 
 .card-content::-webkit-scrollbar-thumb {
-  background: var(--primary-color); 
+  background: var(--primary-color);
   border-radius: 10px;
   margin-block: 50px;
 }
 
 .card-content::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  background: #b30000;
 }
 
 .image-container {
@@ -113,7 +113,7 @@
   padding: 10px;
 }
 
-ul {
+.unordered-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,41 +129,21 @@ ul {
   margin: auto;
 }
 
-li {
+.list {
   font-size: 14px;
   font-weight: 400;
   color: white;
   padding: 5px;
   margin-left: 5px;
-  text-align:start
+  text-align: start;
 }
 
-li::before {
+.list::before {
   content: '\7';
   color: var(--primary-color);
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 16px;
   margin-left: -16px;
   padding-right: 5px;
 }
-
-/* .btn {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
-  border: none;
-  font-size: 14px;
-  color: white;
-  padding: 8px 16px;
-  background-color: var(--primary-color);
-  border-radius: 6px;
-  margin-bottom: 14px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.show {
-  overflow: auto;
-} */
