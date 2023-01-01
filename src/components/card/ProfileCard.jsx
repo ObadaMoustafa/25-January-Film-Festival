@@ -15,10 +15,10 @@ const ProfileCard = ({ person, image }) => {
           <h3 className="profession">{person.profession}</h3>
           <p className="description">{person.description}</p>
           {person.awards && (
-            <ul>
+            <ul className='unordered-list'>
               <h3 className="awards">Awards</h3>
               {person.awards?.map((award, index) => (
-                <li key={index}>{award}</li>
+                <li className='list' key={index}>{award}</li>
               ))}
             </ul>
           )}
