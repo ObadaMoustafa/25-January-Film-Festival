@@ -17,6 +17,14 @@ a {
   margin: 0 2rem;
 }
 
+.navbar p {
+  color: white;
+}
+
+.navbar p:hover {
+  color: var(--primary-color);
+}
+
 .logo-part {
   display: flex;
   height: 100%;

@@ -28,7 +28,7 @@ function AwardsAndConditions() {
           <h2>Conditions</h2>
         </div>
         <ul className="description">
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -38,13 +38,13 @@ function AwardsAndConditions() {
               revolutionary film is welcome to be a part of our festival.
             </p>
           </li>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
             <p>All submitted films must be made in the last 2 years max.</p>
           </li>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -63,7 +63,7 @@ function AwardsAndConditions() {
           <h2>Awards</h2>
         </div>
         <ul className="description">
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -73,7 +73,7 @@ function AwardsAndConditions() {
             <p>The documentary's duration must be longer than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -86,7 +86,7 @@ function AwardsAndConditions() {
             </p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -96,7 +96,7 @@ function AwardsAndConditions() {
             <p>The documentary's duration must be shorter than 20 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -106,7 +106,7 @@ function AwardsAndConditions() {
             <p>The film's duration must be longer than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -116,7 +116,7 @@ function AwardsAndConditions() {
             <p>The film's duration must be shorter than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -130,7 +130,7 @@ function AwardsAndConditions() {
             </p>
             <p>The resolution of the film must be at least 480q.</p>
           </div>
-          <li>
+          <li className='description-list'>
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -139,17 +139,81 @@ function AwardsAndConditions() {
           <div className="paragraph">
             <p>
               This honouring award is given to any activist / organization, who
-              contribute in a revolutionary idea or movement. This award goes to
-              any person: dead, alive or detained. You can nominate any person
-              or organization you believe they deserve the award.
+              contribute in a revolutionary idea or movement.
+              <p>
+                This award goes to any person: dead, alive or detained. You can
+                nominate any person or organization you believe they deserve the
+                award.
+              </p>
             </p>
           </div>
         </ul>
-        <div className="btn-container">
-          <button className="nominate-btn">
-            <Link to={'/'}>Click here to nominate</Link>
-          </button>
+      </div>
+      <div className="submitting-container">
+        <div className="title">
+          <span className="double-overlay">
+            <ChevronRightIcon className="double-arrow-1" />
+            <ChevronRightIcon className="double-arrow-2" />
+          </span>
+          <h2>Submitting</h2>
         </div>
+        <p className="submitting-container-info">
+          The films will be viewed first by a preliminary committee, they will
+          check the main line of the festival if they are in the submitted
+          films, if the film doesn't match with the main guidelines of the
+          festival this preliminary committee will exclude the submitted film
+          from the festival.
+        </p>
+        <ul className="description">
+          <li className='description-list'>
+            <span className="single-overlay">
+              <ChevronRightIcon className="single-arrow" />
+            </span>
+            <h5>Second stage:</h5>
+          </li>
+          <div className="paragraph">
+            <p>
+              will be passing the submitted films to preliminary jury; they will
+              make the selections and choose three projects for each award.
+              These three projects will graduate to the final selection stage.
+            </p>
+          </div>
+          <li className='description-list'>
+            <span className="single-overlay">
+              <ChevronRightIcon className="single-arrow" />
+            </span>
+            <h5>The final stage:</h5>
+          </li>
+          <div className="paragraph">
+            <p>
+              our main jury will look at the submitted films and give decisions
+              who are the winners.
+              <p>
+                This main jury will be from big professional film makers and
+                documentary makers.
+              </p>
+            </p>
+          </div>
+          <div className="link-container">
+            <span className="double-overlay">
+              <ChevronRightIcon className="submitting-single-arrow-1" />
+              <ChevronRightIcon className="submitting-single-arrow-2" />
+            </span>
+            <h5>
+              <Link to={'/juries'} className="link-to-jury">
+                Click her to meet our jury.
+              </Link>
+            </h5>
+          </div>
+        </ul>
+      </div>
+      <div className="submitting-date">
+        <p>The submitting dates will be announced soon.</p>
+      </div>
+      <div className="btn-container">
+        <button className="nominate-btn">
+          <Link to={'/'}>Click here to nominate</Link>
+        </button>
       </div>
     </div>
   );
