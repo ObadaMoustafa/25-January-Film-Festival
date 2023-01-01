@@ -15,7 +15,7 @@ function HomeParagraph({ content, type }) {
       alignItems="center"
       direction={type === "left" ? "row" : "row-reverse"}
     >
-      <Grid item xs={12} md={4}>
+      <Grid item xs={12} sm={6} md={4}>
         <CardMedia component="img" src={photo} sx={{ p: 0 }} />
       </Grid>
       <Grid item xs={12} md={8}>

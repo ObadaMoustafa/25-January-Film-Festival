@@ -1,13 +1,11 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
-import { useOutletContext } from "react-router-dom";
 import holdCameraPic from "../../../images/homepage/homepage-holding-camera.jpg";
 import holdCameraPicMobile from "../../../images/homepage/home-holding-camera-mobile.jpg";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 function Header() {
   //write code here
-  const navbarHeight = useOutletContext();
   const typoProps = {
     color: "white",
     component: "h2",
@@ -30,10 +28,10 @@ function Header() {
       sx={{
         backgroundImage: {
           xs: `url(${holdCameraPicMobile})`,
-          md: `url(${holdCameraPic})`,
+          sm: `url(${holdCameraPic})`,
         },
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "bottom",
+        backgroundPosition: "center",
         backgroundSize: "cover",
         resize: "both",
       }}
