@@ -1,7 +1,7 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useOutletContext } from "react-router-dom";
-import holdCameraPic from "../../../images/homepage/home-holding-camera.jpg";
+import holdCameraPic from "../../../images/homepage/homepage-holding-camera.jpg";
 import holdCameraPicMobile from "../../../images/homepage/home-holding-camera-mobile.jpg";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <Box
-      height={`calc(100vh - ${navbarHeight}px)`}
+      height={`60vh`}
       position="relative"
       sx={{
         backgroundImage: {
@@ -32,7 +32,7 @@ function Header() {
           md: `url(${holdCameraPic})`,
         },
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "left",
+        backgroundPosition: "bottom",
         backgroundSize: "cover",
         resize: "both",
       }}
