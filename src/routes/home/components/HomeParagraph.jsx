@@ -22,11 +22,14 @@ function HomeParagraph({ content, type }) {
         <Typography
           component="p"
           color="white"
-          textAlign="justify"
+          textAlign="center"
           width="100%"
-          px={3}
           py={2}
-          sx={{ fontSize: { xs: 20, md: 25 } }}
+          sx={{
+            fontSize: { xs: 20, md: 25 },
+            textAlign: { xs: "center", md: "justify" },
+            px: { xs: 1, md: 5 },
+          }}
         >
           <ArrowForwardIosIcon color="third" sx={{ mr: 3 }} />
           {text}

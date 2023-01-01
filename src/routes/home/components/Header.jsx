@@ -9,12 +9,13 @@ function Header() {
   //write code here
   const navbarHeight = useOutletContext();
   const typoProps = {
-    color: "second.main",
+    color: "white",
     component: "h2",
     textAlign: "center",
     sx: {
-      textShadow: "0 0 5px white, 0 0 5px white, 0 0 5px white",
-      fontSize: 40,
+      textShadow: "0 0 5px black, 0 0 5px white, 0 0 5px black",
+      fontSize: { xs: 28, md: 40 },
+      fontWeight: 900,
     },
   };
 
