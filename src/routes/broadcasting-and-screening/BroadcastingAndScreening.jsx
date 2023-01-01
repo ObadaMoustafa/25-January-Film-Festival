@@ -1,10 +1,11 @@
-import React from 'react';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import './style.css';
+import React from "react";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import "./style.css";
+import { Container } from "@mui/material";
 
 function BroadcastingAndScreening() {
   return (
-    <div className="broadcasting-container">
+    <Container sx={{ flexGrow: 1 }}>
       <div className="page-introduction">
         <h2>
           After you submit your films you can choose between just submitting to
@@ -46,13 +47,13 @@ function BroadcastingAndScreening() {
           </p>
         </div>
       </div>
-      <div className='broadcast-extra-information'>
+      <div className="broadcast-extra-information">
         <p>
           All these steps are applicable after the acceptance of the filmmaker
           on one or all the previous terms.
         </p>
       </div>
-    </div>
+    </Container>
   );
 }
 

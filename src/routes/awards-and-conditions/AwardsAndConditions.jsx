@@ -1,11 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import './style.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import "./style.css";
+import { Container } from "@mui/material";
 
 function AwardsAndConditions() {
   return (
-    <div className="main">
+    <Container sx={{ flexGrow: 1 }}>
       <div className="page-introduction">
         <h2>
           13 years passed since the glorious revolution of the 25th of January.
@@ -28,7 +29,7 @@ function AwardsAndConditions() {
           <h2>Conditions</h2>
         </div>
         <ul className="description">
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -38,13 +39,13 @@ function AwardsAndConditions() {
               revolutionary film is welcome to be a part of our festival.
             </p>
           </li>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
             <p>All submitted films must be made in the last 2 years max.</p>
           </li>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -63,7 +64,7 @@ function AwardsAndConditions() {
           <h2>Awards</h2>
         </div>
         <ul className="description">
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -73,7 +74,7 @@ function AwardsAndConditions() {
             <p>The documentary's duration must be longer than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -86,7 +87,7 @@ function AwardsAndConditions() {
             </p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -96,7 +97,7 @@ function AwardsAndConditions() {
             <p>The documentary's duration must be shorter than 20 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -106,7 +107,7 @@ function AwardsAndConditions() {
             <p>The film's duration must be longer than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -116,7 +117,7 @@ function AwardsAndConditions() {
             <p>The film's duration must be shorter than 50 minutes.</p>
             <p>The resolution of the film must be at least 1080q.</p>
           </div>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -130,7 +131,7 @@ function AwardsAndConditions() {
             </p>
             <p>The resolution of the film must be at least 480q.</p>
           </div>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -140,11 +141,11 @@ function AwardsAndConditions() {
             <p>
               This honouring award is given to any activist / organization, who
               contribute in a revolutionary idea or movement.
-              <p>
-                This award goes to any person: dead, alive or detained. You can
-                nominate any person or organization you believe they deserve the
-                award.
-              </p>
+            </p>
+            <p>
+              This award goes to any person: dead, alive or detained. You can
+              nominate any person or organization you believe they deserve the
+              award.
             </p>
           </div>
         </ul>
@@ -165,7 +166,7 @@ function AwardsAndConditions() {
           from the festival.
         </p>
         <ul className="description">
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -178,7 +179,7 @@ function AwardsAndConditions() {
               These three projects will graduate to the final selection stage.
             </p>
           </div>
-          <li className='description-list'>
+          <li className="description-list">
             <span className="single-overlay">
               <ChevronRightIcon className="single-arrow" />
             </span>
@@ -188,10 +189,10 @@ function AwardsAndConditions() {
             <p>
               our main jury will look at the submitted films and give decisions
               who are the winners.
-              <p>
-                This main jury will be from big professional film makers and
-                documentary makers.
-              </p>
+            </p>
+            <p>
+              This main jury will be from big professional film makers and
+              documentary makers.
             </p>
           </div>
           <div className="link-container">
@@ -200,7 +201,7 @@ function AwardsAndConditions() {
               <ChevronRightIcon className="submitting-single-arrow-2" />
             </span>
             <h5>
-              <Link to={'/juries'} className="link-to-jury">
+              <Link to={"/juries"} className="link-to-jury">
                 Click her to meet our jury.
               </Link>
             </h5>
@@ -212,10 +213,10 @@ function AwardsAndConditions() {
       </div>
       <div className="btn-container">
         <button className="nominate-btn">
-          <Link to={'/'}>Click here to nominate</Link>
+          <Link to={"/"}>Click here to nominate</Link>
         </button>
       </div>
-    </div>
+    </Container>
   );
 }
 
