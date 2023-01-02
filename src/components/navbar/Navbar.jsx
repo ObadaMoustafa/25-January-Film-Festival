@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <Box bgcolor="first.main">
-      <div className="navbar">
+      <nav className="navbar">
         <NavLink to="/" className="logo-part">
           <img src={logo} alt="logo" width={50} />
           <p className="logo-text">
@@ -65,7 +65,7 @@ function Navbar() {
             )}
           </NavLink>
         </div>
-      </div>
+      </nav>
 
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu-items" onClick={showSidebar}>

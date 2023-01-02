@@ -14,7 +14,7 @@ function Footer() {
 
   return (
     <Box bottom={0} width="100%" bgcolor="first.main">
-      <div className="footer">
+      <footer className="footer">
         <div className="footer-logo-text-first">
           <Link to="/">
             <div className="footer-logo-text">
@@ -58,22 +58,21 @@ function Footer() {
           <div className="footer-right">
             <div className="footer-contact-us">Contact Us</div>
             <div className="footer-contact-line">
-              <PinDropIcon fontSize="small" />
               <div className="footer-contact">
+                <PinDropIcon fontSize="small" />
                 Lorem Ipsum Street 00 1000AA Amsterdam
               </div>
-            </div>
-            <div className="footer-contact-line">
-              <EmailIcon fontSize="small" />
-              <div className="footer-contact">loremipsum@gmail.com </div>
-            </div>
-            <div className="footer-contact-line">
-              <CallIcon fontSize="small" />
-              <div className="footer-contact">0612345678 </div>
+              <div className="footer-contact">
+                <EmailIcon fontSize="small" />
+                loremipsum@gmail.com
+              </div>
+              <div className="footer-contact">
+                <CallIcon fontSize="small" /> 0612345678
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       <div className="footer-copyright">
         Copyright &copy; 2023 &bull; 25 January Film Festival
       </div>

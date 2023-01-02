@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin: 1rem 2rem;
   color: white;
 }
@@ -14,30 +13,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: center;
   gap: 1rem;
 }
 .footer-left {
   flex: 1;
-}
-
-.footer-middle {
-  color: white;
-  flex: 1;
-  display: none;
   text-align: center;
-}
-
-.footer-logo-text {
-  color: white;
-  flex: 1;
-  text-align: center;
-  font-weight: 600;
-}
-
-.footer-right {
-  color: white;
-  flex: 1;
 }
 
 .footer-follow-us {
@@ -45,33 +25,56 @@
   font-weight: 600;
 }
 
-.footer-contact-us {
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-.footer-contact-line {
-  margin-top: 0.5rem;
-  font-size: 0.8rem;
-  display: flex;
-  gap: 0.3rem;
-  margin-left: 1rem;
-}
-
-.footer-contact {
-  text-align: left;
-}
 .footer-social-logos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
   margin-top: 0.5rem;
-  text-align: center;
 }
 
 .footer-social-logo {
   color: white;
+}
+
+.footer-middle {
+  flex: 1;
+  color: white;
+  display: none;
+  text-align: center;
+}
+
+.footer-logo-text {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.footer-right {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact-us {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer-contact-line {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: center;
+}
+
+.footer-contact {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 .footer-copyright {
@@ -81,30 +84,36 @@
   margin-bottom: 0.5rem;
 }
 
-@media (min-width: 500px) {
-  .footer-contact-line {
-    margin-left: 4rem;
-  }
-}
-
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .footer-elements {
     flex-direction: row;
   }
+  .footer-left {
+    text-align: left;
+  }
   .footer-middle {
     display: flex;
+    margin-left: 13rem;
   }
   .footer-logo-text-first {
     display: none;
   }
-  .footer-contact-line {
-    margin-left: 4rem;
-  }
-}
 
-@media (min-width: 1700px) {
+  .footer-social-logos {
+    justify-content: flex-start;
+  }
+
+  .footer-right {
+    flex: -1;
+  }
+
   .footer-contact-us {
     text-align: left;
-    margin-left: 12rem;
+  }
+
+  .footer-contact {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
   }
 }
