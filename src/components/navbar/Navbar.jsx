@@ -36,7 +36,7 @@ function Navbar() {
     <Box bgcolor="first.main">
       <nav className="navbar">
         <NavLink to="/" className="logo-part">
-          <img src={logo} alt="logo" width={50} />
+          <img src={logo} alt="logo" width={60} />
           <p className="logo-text">
             25 January <br></br>{" "}
             <span className="logo-text-second">Film Festival</span>

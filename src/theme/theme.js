@@ -1,6 +1,7 @@
 import { createTheme } from "@mui/material";
 
 export const darkTheme = createTheme({
+  typography: { fontFamily: '"Montserrat", "Roboto", "sans-serif"' },
   palette: {
     type: "dark",
     first: {

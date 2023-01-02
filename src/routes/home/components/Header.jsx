@@ -1,20 +1,19 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
-import { useOutletContext } from "react-router-dom";
-import holdCameraPic from "../../../images/homepage/home-holding-camera.jpg";
+import holdCameraPic from "../../../images/homepage/homepage-holding-camera.jpg";
 import holdCameraPicMobile from "../../../images/homepage/home-holding-camera-mobile.jpg";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 function Header() {
   //write code here
-  const navbarHeight = useOutletContext();
   const typoProps = {
-    color: "second.main",
+    color: "white",
     component: "h2",
     textAlign: "center",
     sx: {
-      textShadow: "0 0 5px white, 0 0 5px white, 0 0 5px white",
-      fontSize: 40,
+      textShadow: "0 0 5px black, 0 0 5px white, 0 0 5px black",
+      fontSize: { xs: 28, md: 40 },
+      fontWeight: 900,
     },
   };
 
@@ -24,15 +23,15 @@ function Header() {
 
   return (
     <Box
-      height={`calc(100vh - ${navbarHeight}px)`}
+      height={`60vh`}
       position="relative"
       sx={{
         backgroundImage: {
           xs: `url(${holdCameraPicMobile})`,
-          md: `url(${holdCameraPic})`,
+          sm: `url(${holdCameraPic})`,
         },
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "left",
+        backgroundPosition: "center",
         backgroundSize: "cover",
         resize: "both",
       }}
@@ -41,7 +40,7 @@ function Header() {
         component="div"
         sx={{
           position: "absolute",
-          width: { xs: "320px", md: 500 },
+          width: { xs: "auto", md: 500 },
           right: { xs: 20, md: 100 },
           top: { xs: "auto", md: "40%" },
           bottom: { xs: 10, md: "auto" },
