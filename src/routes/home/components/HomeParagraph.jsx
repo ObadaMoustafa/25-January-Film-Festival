@@ -26,7 +26,7 @@ function HomeParagraph({ content, type }) {
           width="100%"
           py={2}
           sx={{
-            fontSize: { xs: 20, md: 25 },
+            fontSize: { xs: 20, md: 22 },
             textAlign: { xs: "center", md: "justify" },
             px: { xs: 1, md: 5 },
           }}

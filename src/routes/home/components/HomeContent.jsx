@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Stack } from "@mui/material";
 import HomeParagraph from "./HomeParagraph";
-import freedom from "../../../images/homepage/2013_1_25-Egyptian-revolution-1.webp";
+import freedom from "../../../images/homepage/2013_1_25-Egyptian-revolution-2.jpg";
 import policeForce from "../../../images/homepage/000_nic532692.webp";
 import filmMaker from "../../../images/homepage/home-header.jpeg";
 
