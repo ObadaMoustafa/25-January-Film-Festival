@@ -27,8 +27,8 @@ root.render(
           path="broadcasting-and-screening"
           element={<BroadcastingAndScreening />}
         />
+        <Route path="*" element={<NonFound />} />
       </Route>
-      <Route path="*" element={<NonFound />} />
     </Routes>
   </Router>
 );

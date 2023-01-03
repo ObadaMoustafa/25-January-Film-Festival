@@ -1,0 +1,57 @@
+.mainbox {
+  background-color: rgb(37, 36, 36);
+  min-height: 100%;
+  min-width: 100%;
+  padding-top: 8rem;
+}
+.number-camera {
+  display: flex;
+  justify-content: center;
+}
+
+.number-four {
+  color: var(--primary-color);
+  font-size: 8rem;
+}
+
+.camera {
+  font-size: 8rem;
+  color: var(--primary-color);
+  margin: 1rem;
+}
+
+.page-not-found-message {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 3rem;
+  color: #ffffff;
+}
+.go-home {
+  margin: 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.home-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 0.5s ease;
+}
+
+.home-link:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (min-width: 900px) {
+  .number-four {
+    font-size: 11rem;
+  }
+
+  .camera {
+    font-size: 11rem;
+  }
+
+  .page-not-found-message {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+}
