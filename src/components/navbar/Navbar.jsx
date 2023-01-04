@@ -5,11 +5,11 @@ import MenuSharpIcon from "@mui/icons-material/MenuSharp";
 import CloseSharpIcon from "@mui/icons-material/CloseSharp";
 import "./navbar.css";
 import logo from "./logo.png";
+import LinkToAPageButton from "../buttons/LinkToAPageButton";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
-
   const activeStyle = {
     color: "var(--secondary-color)",
   };
@@ -56,6 +56,12 @@ function Navbar() {
                 {item.name}
               </NavLink>
             ))}
+            <LinkToAPageButton
+              pathname="/awards-and-conditions"
+              linkTo="/awards-and-conditions"
+              className="nav-apply-now-button"
+              name="Apply Now"
+            />
           </div>
           <NavLink to="#" className="menu-bars-close">
             {!sidebar ? (
@@ -82,6 +88,12 @@ function Navbar() {
                 {item.name}
               </NavLink>
             ))}
+            <LinkToAPageButton
+              pathname="/awards-and-conditions"
+              linkTo="/awards-and-conditions"
+              className="hamburger-apply-now-button"
+              name="Apply Now"
+            />
           </div>
         </ul>
       </nav>
