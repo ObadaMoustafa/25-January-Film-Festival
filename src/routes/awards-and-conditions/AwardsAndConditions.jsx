@@ -202,7 +202,7 @@ function AwardsAndConditions() {
             </span>
             <h5>
               <Link to={"/juries"} className="link-to-jury">
-                Click her to meet our jury.
+                Click here to meet our jury.
               </Link>
             </h5>
           </div>

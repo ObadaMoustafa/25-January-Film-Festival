@@ -1,4 +1,4 @@
-import { Container, ThemeProvider } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import { Stack } from "@mui/system";
 import { Outlet } from "react-router-dom";
 import Footer from "./components/footer/Footer";
@@ -6,7 +6,6 @@ import Navbar from "./components/navbar/Navbar";
 import { darkTheme } from "./theme/theme";
 
 const NAVBAR_HEIGHT = 37;
-const FOOTER_HEIGHT = 37;
 
 function App() {
   return (
