@@ -10,6 +10,14 @@ import LinkToAPageButton from "../buttons/LinkToAPageButton";
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
+
+  const linkToPageObj = {
+    pathname: "/awards-and-conditions",
+    linkTo: "/awards-and-conditions",
+    className: "nav-apply-now-button",
+    name: "Apply Now",
+  };
+
   const activeStyle = {
     color: "var(--secondary-color)",
   };
@@ -56,12 +64,7 @@ function Navbar() {
                 {item.name}
               </NavLink>
             ))}
-            <LinkToAPageButton
-              pathname="/awards-and-conditions"
-              linkTo="/awards-and-conditions"
-              className="nav-apply-now-button"
-              name="Apply Now"
-            />
+            <LinkToAPageButton {...linkToPageObj} />
           </div>
           <NavLink to="#" className="menu-bars-close">
             {!sidebar ? (
@@ -89,10 +92,8 @@ function Navbar() {
               </NavLink>
             ))}
             <LinkToAPageButton
-              pathname="/awards-and-conditions"
-              linkTo="/awards-and-conditions"
+              {...linkToPageObj}
               className="hamburger-apply-now-button"
-              name="Apply Now"
             />
           </div>
         </ul>
