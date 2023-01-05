@@ -37,15 +37,15 @@ export const data = [
   {
     id: '6',
     name: 'Fadi Naddaf',
-    profession: 'Frontend Developer',
+    profession: 'Front-End Developer',
     description:
       'Syrian from Damascus and he lives in the Netherlands, Graphic designer and Frontend web developer.',
   },
   {
     id: '7',
-    name: 'Ali',
-    profession: 'Frontend Developer',
+    name: 'Ali Gok',
+    profession: 'Full-Stack Developer',
     description:
-      'Syrian from Damascus and he lives in the Netherlands, Graphic designer and Frontend web developer.',
+      'Turkey from Istanbul and he lives in the Netherlands, Graphic designer and Frontend web developer.',
   },
 ];
