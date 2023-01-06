@@ -12,7 +12,6 @@ function Navbar() {
   const showSidebar = () => setSidebar(!sidebar);
 
   const linkToPageObj = {
-    pathname: "/awards-and-conditions",
     linkTo: "/awards-and-conditions",
     className: "nav-apply-now-button",
     name: "Apply Now",
@@ -32,9 +31,8 @@ function Navbar() {
       name: "Juries",
       to: "/juries",
     },
-    { id: 3, name: "Awards & Conditions", to: "/awards-and-conditions" },
     {
-      id: 4,
+      id: 3,
       name: "Broadcasting & Screening",
       to: "/broadcasting-and-screening",
     },

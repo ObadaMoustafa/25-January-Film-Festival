@@ -1,14 +1,11 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
-const LinkToAPageButton = ({ pathname, linkTo, className, name }) => {
-  const location = useLocation();
+import { Link } from "react-router-dom";
+const LinkToAPageButton = ({ linkTo, className, name }) => {
   return (
     <div>
-      {location.pathname !== pathname && (
-        <Link to={linkTo}>
-          <button className={className}>{name}</button>
-        </Link>
-      )}
+      <Link to={linkTo}>
+        <button className={className}>{name}</button>
+      </Link>
     </div>
   );
 };

@@ -45,8 +45,9 @@ a {
   min-height: 2.5rem;
 }
 
-.nav-text:nth-child(4) {
+.nav-text:nth-child(3) {
   border: none;
+  margin-left: 1rem;
 }
 
 .nav-apply-now-button {
@@ -89,7 +90,7 @@ a {
   width: 50%;
   height: 60%;
   max-width: 12rem;
-  max-height: 24rem;
+  max-height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
