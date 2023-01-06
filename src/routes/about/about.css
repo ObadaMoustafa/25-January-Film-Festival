@@ -1,28 +1,27 @@
 .about-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  margin: 80px 0;
+  margin: 4rem 0;
+  gap: 2rem;
   width: 100%;
 }
 
 .about-image-container {
-  display: flex;
-  align-items: center;
-  height: 50vh;
+  align-self: center;
 }
-
 .about-image-container img {
   height: 80%;
   width: 100%;
+  max-width: 30rem;
+  max-height: 25rem;
+  align-self: center;
 }
 
 .about-info {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  height: 50vh;
-  justify-content: space-evenly;
+  padding-right: 1rem;
 }
 
 .about-container .about-title {
@@ -31,8 +30,8 @@
 
 .team-container .team-title {
   display: flex;
-  justify-content: center;
-  margin: 80px 0;
+  justify-content: flex-start;
+  margin: 1rem;
 }
 
 .double-overlay {
@@ -61,16 +60,36 @@
 
 .about-container .about-title h2 {
   color: var(--primary-color);
+  padding-left: 0.5rem;
 }
 
 .team-container .team-title h2 {
   color: var(--primary-color);
+  padding-left: 0.5rem;
 }
 
-.about-info .description {
-  width: 100%
+.about-info .about-description {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
 }
 
-.about-info .description p {
+.about-info .description-list p {
   text-align: justify;
+  text-indent: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-container {
+    flex-direction: row;
+  }
+  .about-info {
+    padding-top: 5rem;
+  }
+  .about-image-container img {
+    min-width: 30rem;
+    min-height: 25rem;
+  }
 }

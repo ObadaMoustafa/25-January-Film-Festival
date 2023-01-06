@@ -1,17 +1,17 @@
-import React from 'react';
-import { Container } from '@mui/material';
-import ProfileCard from '../../components/card/ProfileCard';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import { data as teams } from '../../components/about-data/data.js';
-import about from '../../images/homepage/000_nic532692.webp';
-import image1 from '../../components/about-data/team_images/Salah_Amer.png';
-import image2 from '../../components/about-data/team_images/Tommy.png';
-import image3 from '../../components/about-data/team_images/Adham_Hasanin.png';
-import image4 from '../../components/about-data/team_images/Motaz_AlNazlawy.png';
-import image5 from '../../components/about-data/team_images/Obada.png';
-import image6 from '../../components/about-data/team_images/Fadi.png';
-import image7 from '../../components/about-data/team_images/Ali.png';
-import './style.css';
+import React from "react";
+import { Container } from "@mui/material";
+import ProfileCard from "../../components/card/ProfileCard";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import { data as teams } from "../../components/about-data/data.js";
+import about from "../../images/homepage/000_nic532692.webp";
+import image1 from "../../components/about-data/team_images/Salah_Amer.png";
+import image2 from "../../components/about-data/team_images/Tommy.png";
+import image3 from "../../components/about-data/team_images/Adham_Hasanin.png";
+import image4 from "../../components/about-data/team_images/Motaz_AlNazlawy.png";
+import image5 from "../../components/about-data/team_images/Obada.png";
+import image6 from "../../components/about-data/team_images/Fadi.png";
+import image7 from "../../components/about-data/team_images/Ali.png";
+import "./about.css";
 
 function About() {
   const images = [image1, image2, image3, image4, image5, image6, image7];
@@ -30,7 +30,7 @@ function About() {
             </span>
             <h2>About Us</h2>
           </div>
-          <ul className="description">
+          <ul className="about-description">
             <li className="description-list">
               <span className="single-overlay">
                 <ChevronRightIcon className="single-arrow" />
