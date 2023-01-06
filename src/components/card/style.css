@@ -59,7 +59,7 @@
 
 .overlay::before,
 .overlay::after {
-  content: '';
+  content: "";
   right: 0;
   bottom: -40px;
   position: absolute;
@@ -109,7 +109,7 @@
   font-size: 14px;
   font-weight: 400;
   color: white;
-  text-align: center;
+  text-align: justify;
   padding: 10px;
 }
 
@@ -139,11 +139,28 @@
 }
 
 .list::before {
-  content: '\7';
+  content: "\7";
   color: var(--primary-color);
   font-weight: bold;
   display: inline-block;
   width: 16px;
   margin-left: -16px;
   padding-right: 5px;
+}
+
+.card-content-contact-link {
+  color: var(--secondary-color);
+  display: inline-block;
+}
+.card-content-contact-link:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.card-content-contact {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  align-self: flex-start;
+  margin-left: 1.5rem;
 }

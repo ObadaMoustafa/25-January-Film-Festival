@@ -1,0 +1,95 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 4rem 0;
+  gap: 2rem;
+  width: 100%;
+}
+
+.about-image-container {
+  align-self: center;
+}
+.about-image-container img {
+  height: 80%;
+  width: 100%;
+  max-width: 30rem;
+  max-height: 25rem;
+  align-self: center;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
+.about-container .about-title {
+  display: flex;
+}
+
+.team-container .team-title {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+
+.double-overlay {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  margin-top: -8px;
+}
+
+.double-overlay .double-arrow-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: var(--primary-color);
+  font-size: 45px;
+}
+
+.double-overlay .double-arrow-2 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  fill: var(--primary-color) !important;
+  font-size: 45px;
+}
+
+.about-container .about-title h2 {
+  color: var(--primary-color);
+  padding-left: 0.5rem;
+}
+
+.team-container .team-title h2 {
+  color: var(--primary-color);
+  padding-left: 0.5rem;
+}
+
+.about-info .about-description {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.about-info .description-list p {
+  text-align: justify;
+  text-indent: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-container {
+    flex-direction: row;
+  }
+  .about-info {
+    padding-top: 5rem;
+  }
+  .about-image-container img {
+    min-width: 30rem;
+    min-height: 25rem;
+  }
+}
