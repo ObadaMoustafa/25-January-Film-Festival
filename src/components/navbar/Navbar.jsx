@@ -5,10 +5,17 @@ import MenuSharpIcon from "@mui/icons-material/MenuSharp";
 import CloseSharpIcon from "@mui/icons-material/CloseSharp";
 import "./navbar.css";
 import logo from "./logo.png";
+import LinkToAPageButton from "../buttons/LinkToAPageButton";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
+
+  const linkToPageObj = {
+    linkTo: "/awards-and-conditions",
+    className: "nav-apply-now-button",
+    name: "Apply Now",
+  };
 
   const activeStyle = {
     color: "var(--secondary-color)",
@@ -24,9 +31,8 @@ function Navbar() {
       name: "Juries",
       to: "/juries",
     },
-    { id: 3, name: "Awards & Conditions", to: "/awards-and-conditions" },
     {
-      id: 4,
+      id: 3,
       name: "Broadcasting & Screening",
       to: "/broadcasting-and-screening",
     },
@@ -56,6 +62,7 @@ function Navbar() {
                 {item.name}
               </NavLink>
             ))}
+            <LinkToAPageButton {...linkToPageObj} />
           </div>
           <NavLink to="#" className="menu-bars-close">
             {!sidebar ? (
@@ -82,6 +89,10 @@ function Navbar() {
                 {item.name}
               </NavLink>
             ))}
+            <LinkToAPageButton
+              {...linkToPageObj}
+              className="hamburger-apply-now-button"
+            />
           </div>
         </ul>
       </nav>
