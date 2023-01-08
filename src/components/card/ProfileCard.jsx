@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 
-const ProfileCard = ({ person, image }) => {
+const ProfileCard = ({ person }) => {
   return (
     <div className="card" key={person.id}>
       <div className="image-container">
         <span className="overlay"></span>
         <div className="card-image">
-          <img src={image} alt="name" className="card-img" />
+          <img src={person.img} alt="name" className="card-img" />
         </div>
       </div>
       <div className="card-content">

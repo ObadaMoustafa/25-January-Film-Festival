@@ -1,13 +1,11 @@
 import React from "react";
 import { Container, Stack } from "@mui/material";
 import HomeParagraph from "./HomeParagraph";
-import freedom from "../../../images/homepage/2013_1_25-Egyptian-revolution-2.jpg";
-import policeForce from "../../../images/homepage/000_nic532692.webp";
-import filmMaker from "../../../images/homepage/home-header.jpeg";
 
 const paragraphs = [
   {
-    photo: freedom,
+    photo:
+      "https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192542/25januaryfilmfestival/others/2013_1_25-Egyptian-revolution-2_v5jvpc.jpg",
     text: `The 25th of January 2011, is the date when the Egyptian revolution was
       born, a part from the Arab spring, flowers bloomed in Egypt's streets.
       The Egyptian revolution is not just a revolution it's a symbol of
@@ -16,14 +14,16 @@ const paragraphs = [
       the unspoken words.`,
   },
   {
-    photo: policeForce,
+    photo:
+      "https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192542/25januaryfilmfestival/others/000_nic532692_scq0yd.webp",
     text: `The evil powers always fight revolutions. However,
       revolutions are ideas, and ideas never die. By this festival we make
       revolutionary ideas live forever, and we honour the memory of the
       great revolution of the 25th of January.`,
   },
   {
-    photo: filmMaker,
+    photo:
+      "https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192543/25januaryfilmfestival/others/home-header_xfhk8w.jpg",
     text: `The festival was supposed to
       start in 2021 but it was difficult because of the Covid lock down, now
       the image is clearer and we decided to rebirth the festival as we see

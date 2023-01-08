@@ -1,6 +1,7 @@
 export const data = [
   {
     id: '1',
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192437/25januaryfilmfestival/juries/Rena_Netjes_eiuhwh.jpg",
     name: 'Rena Netjes',
     profession: 'Journalist',
     description:
@@ -8,6 +9,7 @@ export const data = [
   },
   {
     id: '2',
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192437/25januaryfilmfestival/juries/Asaad_Taha_byymis.jpg",
     name: 'Asaad Taha',
     profession: 'Journalist, producer & Documentary filmmaker',
     description:
@@ -22,6 +24,7 @@ export const data = [
   },
   {
     id: '3',
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192437/25januaryfilmfestival/juries/Madeleine_Leroyer_usq4iz.jpg",
     name: 'Madeleine Leroyer',
     profession: 'Documentary filmmaker',
     description:
@@ -35,6 +38,7 @@ export const data = [
   },
   {
     id: '4',
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192437/25januaryfilmfestival/juries/Wagdy_El_Araby_fi5ii5.jpg",
     name: 'Wagdy El Araby',
     profession: 'filmmaker',
     description:
@@ -42,6 +46,7 @@ export const data = [
   },
   {
     id: '5',
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192437/25januaryfilmfestival/juries/Teun_Castelein_hzwhdu.jpg",
     name: 'Teun Castelein',
     profession: 'Artist and art teacher',
     description:

@@ -1,6 +1,7 @@
 export const data = [
   {
     id: "1",
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194811/25januaryfilmfestival/team/Salah_Amer_b2oz3c.png",
     name: "Salah Amer",
     profession: "Chairman",
     description:
@@ -8,6 +9,7 @@ export const data = [
   },
   {
     id: "2",
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194811/25januaryfilmfestival/team/Salah_Amer_b2oz3c.png",
     name: "Tommy Sherif",
     profession: "CO",
     description:
@@ -15,6 +17,7 @@ export const data = [
   },
   {
     id: "3",
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194810/25januaryfilmfestival/team/Motaz_AlNazlawy_ddgrqy.png",
     name: "Adham Hasanin",
     profession: "Media spokesperson",
     description:
@@ -22,6 +25,7 @@ export const data = [
   },
   {
     id: "4",
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194813/25januaryfilmfestival/team/Adham_Hasanin_opdqgd.png",
     name: "Motaz AlNazlawy",
     profession: "PR",
     description:
@@ -29,6 +33,7 @@ export const data = [
   },
   {
     id: "5",
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194811/25januaryfilmfestival/team/Obada_ln0ssd.png",
     name: "Obada elSharbatly",
     profession: "Marketing and social media manager",
     description:
@@ -36,6 +41,7 @@ export const data = [
   },
   {
     id: "6",
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194811/25januaryfilmfestival/team/Fadi_sd0nvh.png",
     name: "Fadi Naddaf",
     profession: "Front-End Developer",
     description:
@@ -43,6 +49,7 @@ export const data = [
   },
   {
     id: "7",
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194812/25januaryfilmfestival/team/Ali_swpt2n.png",
     name: "Ali Gök",
     profession: "Full-Stack Developer",
     description:

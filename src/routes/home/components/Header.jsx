@@ -1,11 +1,14 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
-import holdCameraPic from "../../../images/homepage/homepage-holding-camera.jpg";
-import holdCameraPicMobile from "../../../images/homepage/home-holding-camera-mobile.jpg";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 function Header() {
   //write code here
+  const holdCameraPic =
+    "https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192542/25januaryfilmfestival/others/homepage-holding-camera_rty78m.jpg";
+  const holdCameraPicMobile =
+    "https://res.cloudinary.com/ddt6yex1z/image/upload/v1673192542/25januaryfilmfestival/others/home-holding-camera-mobile_kyqa3o.jpg";
+
   const typoProps = {
     color: "white",
     component: "h2",
