@@ -9,7 +9,7 @@ export const data = [
   },
   {
     id: "2",
-    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194811/25januaryfilmfestival/team/Salah_Amer_b2oz3c.png",
+    img:"https://res.cloudinary.com/ddt6yex1z/image/upload/v1673197424/25januaryfilmfestival/team/Tommy_g4cfq0.jpg",
     name: "Tommy Sherif",
     profession: "CO",
     description:
