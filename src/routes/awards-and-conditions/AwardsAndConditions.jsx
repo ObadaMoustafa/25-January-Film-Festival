@@ -231,6 +231,7 @@ function AwardsAndConditions() {
         >
           <img
             src="https://www.wfcn.co/images/logos/big_button/CLICK%20TO%20SUBMIT_DR.png"
+            alt="Submit your film"
             title="Click to submit on WFCN"
           />
         </a>
@@ -243,6 +244,7 @@ function AwardsAndConditions() {
           <img
             src="https://public-assets.filmfreeway.com/submission_buttons/v2/med_submission_btn@2x-red.png"
             title="Click to submit on FilmFreeway"
+            alt="Submit your film"
           />
         </a>
         <a
@@ -254,6 +256,7 @@ function AwardsAndConditions() {
           <img
             src="https://www.filmfestplatform.com/src/logos/logo_filmfest.svg"
             title="Click to submit on Film Fest"
+            alt="Submit your film"
           />
         </a>
       </div>
