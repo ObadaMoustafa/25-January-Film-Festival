@@ -212,7 +212,12 @@ function AwardsAndConditions() {
         <p>Submit now on your favorite platform</p>
       </div>
       <div className="btn-container">
-        <a href="https://festhome.com/f/7728">
+        <a
+          href="https://festhome.com/f/7728"
+          target="_blank"
+          title="Click to submit on fest home"
+          rel="noreferrer"
+        >
           <img
             alt="Submit your film"
             src="https://festhomedocs.com/img/logos/buttons/festhome_orange_big.png"
@@ -222,6 +227,7 @@ function AwardsAndConditions() {
           href="https://www.wfcn.co/festival/25jan-film-fes?utm_campaign=25+January+film+festival&utm_medium=External&utm_source=Submission+Button"
           target="_blank"
           title="Click to submit on WFCN"
+          rel="noreferrer"
         >
           <img
             src="https://www.wfcn.co/images/logos/big_button/CLICK%20TO%20SUBMIT_DR.png"
@@ -232,6 +238,7 @@ function AwardsAndConditions() {
           href="https://filmfreeway.com/festivals/56792?utm_campaign=25+January+film+festival&utm_medium=External&utm_source=Submission+Button"
           target="_blank"
           title="Click to submit on FilmFreeway"
+          rel="noreferrer"
         >
           <img
             src="https://public-assets.filmfreeway.com/submission_buttons/v2/med_submission_btn@2x-red.png"
@@ -242,6 +249,7 @@ function AwardsAndConditions() {
           href="https://www.filmfestplatform.com/en/festival/4812"
           target="_blank"
           title="Click to submit on Film Fest"
+          rel="noreferrer"
         >
           <img
             src="https://www.filmfestplatform.com/src/logos/logo_filmfest.svg"
