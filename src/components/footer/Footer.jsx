@@ -6,7 +6,7 @@ import { Facebook } from "@mui/icons-material";
 import { Instagram } from "@mui/icons-material";
 import { YouTube } from "@mui/icons-material";
 import PinDropIcon from "@mui/icons-material/PinDrop";
-import CallIcon from "@mui/icons-material/Call";
+// import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 
 function Footer() {
@@ -60,21 +60,21 @@ function Footer() {
             <div className="footer-contact-line">
               <div className="footer-contact">
                 <PinDropIcon fontSize="small" />
-                Lorem Ipsum Street 00 1000AA Amsterdam
+                Oude Rijn, 2312 HG Leiden
               </div>
               <div className="footer-contact">
                 <EmailIcon fontSize="small" />
-                loremipsum@gmail.com
+                info@25januaryfilmfestival.nl
               </div>
-              <div className="footer-contact">
+              {/* <div className="footer-contact">
                 <CallIcon fontSize="small" /> 0612345678
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </footer>
       <div className="footer-copyright">
-        Copyright &copy; 2023 &bull; 25 January Film Festival
+        Copyright &copy; 2023 &bull; 999 Geen Dienst Studio
       </div>
     </Box>
   );

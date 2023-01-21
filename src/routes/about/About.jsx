@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "@mui/material";
 import ProfileCard from "../../components/card/ProfileCard";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import { data as teams } from "../../components/about-data/data.js";
+import { data as teams } from "./about-data/data.js";
 
 import "./about.css";
 

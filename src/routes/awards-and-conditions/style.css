@@ -101,6 +101,13 @@ p {
 
 .btn-container {
   display: flex;
+  justify-content: center;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.btn-container img {
+  width: 200px
 }
 
 .nominate-btn {
@@ -185,6 +192,7 @@ p {
 
 .submitting-date p {
   color: var(--primary-color) !important;
-  font-size: 14px;
+  font-size: 25px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
