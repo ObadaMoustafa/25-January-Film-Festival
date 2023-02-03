@@ -57,4 +57,12 @@ export const data = [
       "Ali is from Turkey-Istanbul and he lives in the Netherlands with his family. He is full-stack developer and he loves playing golf.",
     link: "https://www.linkedin.com/in/ali-g%C3%B6k-8265a7229/",
   },
+  {
+    id: "7",
+    img: "https://res.cloudinary.com/ddt6yex1z/image/upload/v1675411005/25januaryfilmfestival/team/WhatsApp_Image_2023-02-02_at_19.25.15_s3zup2.jpg",
+    name: "Ahmed Metawee",
+    profession: "political and humanitarian activist",
+    description:
+      "Ahmed is an activist from Alexandria Egypt he used to study physiotherapy before he had to leave his country 7 years ago Ever since he has been traveling and living in 22 different countries , he  used to regularly participate coordinate and volunteer in political and humanitarian activities and projects since 2013 he has a good experience in social activities and financial analysis.",
+  },
 ];
