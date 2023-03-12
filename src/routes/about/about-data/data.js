@@ -24,20 +24,12 @@ export const data = [
       "Adham is from Cairo - Egypt and he lives in the Netherlands, he holds a BA in media and mass communication from Cairo University. He worked as a journalist and a script writer and a fixer in several TV channels, newspapers and platforms such us AlShark TV and Taked platform.",
   },
   {
-    id: "4",
-    img: "https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194813/25januaryfilmfestival/team/Adham_Hasanin_opdqgd.png",
-    name: "Motaz AlNazlawy",
-    profession: "PR",
-    description:
-      "Motaz is from ALFayom city - Egypt. He is a political activist and he speaks four languages. He has a wide experience in social working in different countries such as Egypt, Ukraine and the Netherlands.",
-  },
-  {
     id: "5",
     img: "https://res.cloudinary.com/ddt6yex1z/image/upload/v1673194811/25januaryfilmfestival/team/Obada_ln0ssd.png",
     name: "Obada Elsharbatly",
     profession: "Full-stack web developer",
     description:
-      "Obada is from Alexandria-Egypt and he lives in the Netherlands, he is one of the 25 January film festival founders and balloon art is his fav hobby,",
+      "Obada is from Alexandria-Egypt who lives in the Netherlands, he was political activist since 2005 in Egypt and one of the 25 January film festival founders. Finally balloon art is his fav hobby.",
   },
   {
     id: "6",
@@ -58,11 +50,21 @@ export const data = [
     link: "https://www.linkedin.com/in/ali-g%C3%B6k-8265a7229/",
   },
   {
-    id: "7",
+    id: "8",
     img: "https://res.cloudinary.com/ddt6yex1z/image/upload/v1675411005/25januaryfilmfestival/team/WhatsApp_Image_2023-02-02_at_19.25.15_s3zup2.jpg",
     name: "Ahmed Metawee",
-    profession: "political and humanitarian activist",
+    profession: "PR",
     description:
       "Ahmed is an activist from Alexandria Egypt he used to study physiotherapy before he had to leave his country 7 years ago Ever since he has been traveling and living in 22 different countries , he  used to regularly participate coordinate and volunteer in political and humanitarian activities and projects since 2013 he has a good experience in social activities and financial analysis.",
+  },
+  {
+    id: "9",
+    img: "https://res.cloudinary.com/ddt6yex1z/image/upload/v1678617323/25januaryfilmfestival/team/WhatsApp_Image_2023-03-09_at_12.26.34_b9mr2a.jpg",
+    name: "Amro Abueltaher",
+    profession: "social media manager",
+    description: `Egyptian from Cairo city living in the Netherlands, he holds a Foreign trade and international relations. Also, he has been politically active since 2004 in the Kefaya Movement, and in 2008 one of the founders  and leader of the 6th April Movement
+
+    He speak 3 languages, traveled 10 countries and
+    Active on social media, Facebook, Instagram, YouTube.`,
   },
 ];
