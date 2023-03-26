@@ -60,7 +60,7 @@ export const data = [
   {
     id: "9",
     img: "https://res.cloudinary.com/ddt6yex1z/image/upload/v1678617323/25januaryfilmfestival/team/WhatsApp_Image_2023-03-09_at_12.26.34_b9mr2a.jpg",
-    name: "Amro Aboeltaher",
+    name: "Amr Aboeltaher",
     profession: "social media manager",
     description: `Egyptian from Cairo city living in the Netherlands, he holds a Foreign trade and international relations. Also, he has been politically active since 2004 in the Kefaya Movement, and in 2008 one of the founders  and leader of the 6th April Movement
 
